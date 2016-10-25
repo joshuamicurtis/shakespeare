@@ -31,12 +31,12 @@ for fileName in os.listdir('.'):
         playKey = cur.lastrowid
         #Insert character names into DB
         fileName += ".txt"
-        print fileName
+        #print fileName
         file=open(fileName,"r+")
         for word in file.read().split():
             word = word.lstrip('\'\"-,.:;!?]')
             word = word.rstrip('\'\"-,.:;!?]')  
-            if word.isupper() and len(word) > 3 and word != "SCENE":  
+            if word.isupper() and len(word) > 3 and word != "SCENE" and word != "PRINCE":  
                 cur.execute('''SELECT COUNT(name) from CHARACTERS 
                                 WHERE name = (?)''',(word,))
                 if list(cur.fetchone())[0] < 1:
@@ -44,6 +44,5 @@ for fileName in os.listdir('.'):
                     playID) VALUES(?,?)''',(word, playKey,))
         print fileName, "added to database"
         
-       
 conn.commit()
 cur.close()
