@@ -10,6 +10,7 @@ cur.execute('''DROP TABLE IF EXISTS Plays ''')
 cur.execute('''DROP TABLE IF EXISTS Characters ''')
 cur.execute('''DROP TABLE IF EXISTS Speeches ''')
 cur.execute('''DROP TABLE IF EXISTS Lines ''')
+cur.execute('''DROP TABLE IF EXISTS Words ''')
 
 #Create Tables
 cur.execute('''CREATE TABLE IF NOT EXISTS Plays 
@@ -22,8 +23,7 @@ cur.execute('''CREATE TABLE IF NOT EXISTS Speeches
 cur.execute('''CREATE TABLE IF NOT EXISTS Lines
     (id INTEGER PRIMARY KEY, line TEXT, speechID, number INTEGER)''') 
 cur.execute('''CREATE TABLE IF NOT EXISTS Words
-    (id INTEGER PRIMARY KEY, characterID INTEGER, playID INTEGER, speechID,
-    lineID INTEGER, act TEXT, number INTEGER)''') 
+    (id INTEGER PRIMARY KEY, word TEXT, lineID INTEGER)''') 
     
  
 for fileName in os.listdir('.'):
@@ -88,9 +88,14 @@ for fileName in os.listdir('.'):
                         cur.execute('''INSERT OR IGNORE INTO LINES (line, 
                                     speechID, number) VALUES(?,?,?)''', 
                                     (line, speechNumber, lineNumber, ))  
-            
-            
-                
+                        words = line.split()
+                        for word in words:
+                            if word.isupper() == False:
+                                cur.execute('''INSERT OR IGNORE INTO WORDS (word, 
+                                        lineID) VALUES(?,?)''', (word, lineNumber, ))   
+                            elif word.isupper() == True and len(word) < 2:
+                                cur.execute('''INSERT OR IGNORE INTO WORDS (word, 
+                                        lineID) VALUES(?,?)''', (word, lineNumber, )) 
         conn.commit()
         print fileName, "added to database"     
 
