@@ -90,6 +90,8 @@ for fileName in os.listdir('.'):
                                     (line, speechNumber, lineNumber, ))  
                         words = line.split()
                         for word in words:
+                            word = word.lstrip('\'\"-,.]')
+                            word = word.rstrip('\'\"-,.]')  
                             if word.isupper() == False:
                                 cur.execute('''INSERT OR IGNORE INTO WORDS (word, 
                                         lineID) VALUES(?,?)''', (word, lineNumber, ))   

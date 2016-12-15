@@ -1,0 +1,10 @@
+Quereies
+
+Get the count of a specific word in all plays:
+SELECT  DISTINCT word, count(word) from words
+WHERE word = "love"
+GROUP BY word;
+
+SELECT  DISTINCT word, COUNT(word) FROM words
+WHERE word = "love" OR word = "death"
+GROUP BY word;
