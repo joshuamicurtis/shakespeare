@@ -26,7 +26,7 @@ cur.execute('''CREATE TABLE IF NOT EXISTS Words
     (id INTEGER PRIMARY KEY, word TEXT, lineID INTEGER)''') 
     
  
-for fileName in os.listdir('.'):
+for fileName in os.listdir('plays'):
     if fileName.lower().endswith('.txt'):
         playName = fileName[:-4]
         #Insert data into play table of DB
@@ -35,7 +35,7 @@ for fileName in os.listdir('.'):
         playKey = cur.lastrowid
         
         #Insert data into character table of DB
-        file=open(fileName,"r+")
+        file=open("plays\\" + fileName,"r+")
         for word in file.read().split():
             word = word.lstrip('\'\"-,.:;!?]')
             word = word.rstrip('\'\"-,.:;!?]')  
