@@ -36,16 +36,16 @@ for fileName in os.listdir('plays'):
         
         #Insert data into character table of DB
         file=open("plays\\" + fileName,"r+")
-        for word in file.read().split():
-            word = word.lstrip('\'\"-,.:;!?]')
-            word = word.rstrip('\'\"-,.:;!?]')  
-            if word.isupper() and len(word) > 3 and word != "SCENE" and word != "PRINCE":  
-                # Check if character is already in database
-                cur.execute('''SELECT COUNT(name) from CHARACTERS 
-                                WHERE name = (?)''',(word,))
-                if list(cur.fetchone())[0] < 1:
-                    cur.execute('''INSERT OR IGNORE INTO CHARACTERS (name, 
-                    playID) VALUES(?,?)''',(word, playKey,))
+        notCharacterChars = set(".!,:'")
+        for line in file:
+            if line.isupper() and line[0:3] != "ACT": 
+                if not any((c in notCharacterChars) for c in line):
+                    # Check if character is already in database
+                    cur.execute('''SELECT COUNT(name) from CHARACTERS 
+                                    WHERE name = (?)''',(line,))
+                    if list(cur.fetchone())[0] < 1:
+                        cur.execute('''INSERT OR IGNORE INTO CHARACTERS (name, 
+                        playID) VALUES(?,?)''',(line, playKey,))
         
         # Insert data into speech table of DB
         file.seek(0)
