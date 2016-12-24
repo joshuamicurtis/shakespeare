@@ -38,7 +38,7 @@ for fileName in os.listdir('plays'):
         file=open("plays\\" + fileName,"r+")
         notCharacterChars = set(".!,:'")
         for line in file:
-            if line.isupper() and line[0:3] != "ACT": 
+            if line.isupper() and line[0:3] != "ACT" and len(line) > 2: 
                 if not any((c in notCharacterChars) for c in line):
                     # Check if character is already in database
                     cur.execute('''SELECT COUNT(name) from CHARACTERS 
