@@ -3139,8 +3139,7 @@ That is thy charge: then to the elements
 Be free, and fare thou well! Please you, draw near.
 Exeunt
 
-EPILOGUE
-SPOKEN BY PROSPERO
+PROSPERO
 Now my charms are all o'erthrown,
 And what strength I have's mine own,
 Which is most faint: now, 'tis true,

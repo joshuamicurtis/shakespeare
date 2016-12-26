@@ -3102,7 +3102,7 @@ Are at their beads, 'tis hard to draw them thence,
 So sweet is zealous contemplation.
 Enter GLOUCESTER aloft, between two Bishops. CATESBY returns
 
-Lord Mayor
+LORD MAYOR
 See, where he stands between two clergymen!
 BUCKINGHAM
 Two props of virtue for a Christian prince,
@@ -3218,7 +3218,7 @@ If non to bless us and the land withal,
 Yet to draw forth your noble ancestry
 From the corruption of abusing times,
 Unto a lineal true-derived course.
-Lord Mayor
+LORD MAYOR
 Do, good my lord, your citizens entreat you.
 BUCKINGHAM
 Refuse not, mighty lord, this proffer'd love.
@@ -3267,14 +3267,14 @@ Your mere enforcement shall acquittance me
 From all the impure blots and stains thereof;
 For God he knows, and you may partly see,
 How far I am from the desire thereof.
-Lord Mayor
+LORD MAYOR
 God bless your grace! we see it, and will say it.
 GLOUCESTER
 In saying so, you shall but say the truth.
 BUCKINGHAM
 Then I salute you with this kingly title:
 Long live Richard, England's royal king!
-Lord Mayor Citizens
+LORD MAYOR & CITIZENS
 Amen.
 BUCKINGHAM
 To-morrow will it please you to be crown'd?

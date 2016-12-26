@@ -1687,7 +1687,7 @@ He is there: see what humour he is in; and I will
 bring the doctor about by the fields. Will it do well?
 SHALLOW
 We will do it.
-PAGE SHALLOW SLENDER
+PAGE & SHALLOW & SLENDER
 Adieu, good master doctor.
 Exeunt PAGE, SHALLOW, and SLENDER
 
@@ -1966,7 +1966,7 @@ positive as the earth is firm that Falstaff is
 there: I will go.
 Enter PAGE, SHALLOW, SLENDER, Host, SIR HUGH EVANS, DOCTOR CAIUS, and RUGBY
 
-SHALLOW PAGE & C
+SHALLOW & PAGE & SLENDER & HOST & SIR HUGH EVANS & DOCTOR CAIUS & RUGBY
 Well met, Master Ford.
 FORD
 Trust me, a good knot: I have good cheer at home;
@@ -3756,7 +3756,7 @@ MISTRESS FORD
 Heaven forgive our sins
 FALSTAFF
 What should this be?
-MISTRESS FORD MISTRESS PAGE
+MISTRESS FORD & MISTRESS PAGE
 Away, away!
 They run off
 

@@ -2825,7 +2825,7 @@ I am a gentleman, sir, and my name is Conrade.
 DOGBERRY
 Write down, master gentleman Conrade. Masters, do
 you serve God?
-CONRADE BORACHIO
+CONRADE & BORACHIO
 Yea, sir, we hope.
 DOGBERRY
 Write down, that they hope they serve God: and
