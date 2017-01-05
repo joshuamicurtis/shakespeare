@@ -427,7 +427,7 @@ QUINCE
 An you should do it too terribly, you would fright
 the duchess and the ladies, that they would shriek;
 and that were enough to hang us all.
-ALL
+BOTTOM & FLUTE & QUINCE & SNOUT & SNUG & STARVELING 
 That would hang us, every mother's son.
 BOTTOM
 I grant you, friends, if that you should fright the
@@ -1251,7 +1251,7 @@ MOTH
 And I.
 MUSTARDSEED
 And I.
-ALL
+PEASEBLOSSOM & COBWEB & MOTH & MUSTARDSEED
 Where shall we go?
 TITANIA
 Be kind and courteous to this gentleman;

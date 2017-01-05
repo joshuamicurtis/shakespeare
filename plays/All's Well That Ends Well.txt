@@ -2152,12 +2152,12 @@ Exeunt
 SCENE V. Florence. Without the walls. A tucket afar off.
 
 Enter an old Widow of Florence, DIANA, VIOLENTA, and MARIANA, with other Citizens
-Widow
+WIDOW
 Nay, come; for if they do approach the city, we
 shall lose all the sight.
 DIANA
 They say the French count has done most honourable service.
-Widow
+WIDOW
 It is reported that he has taken their greatest
 commander; and that with his own hand he slew the
 duke's brother.
@@ -2170,7 +2170,7 @@ Come, let's return again, and suffice ourselves with
 the report of it. Well, Diana, take heed of this
 French earl: the honour of a maid is her name; and
 no legacy is so rich as honesty.
-Widow
+WIDOW
 I have told my neighbour how you have been solicited
 by a gentleman his companion.
 MARIANA
@@ -2189,7 +2189,7 @@ though there were no further danger known but the
 modesty which is so lost.
 DIANA
 You shall not need to fear me.
-Widow
+WIDOW
 I hope so.
 Enter HELENA, disguised like a Pilgrim
 
@@ -2199,11 +2199,11 @@ question her. God save you, pilgrim! whither are you bound?
 HELENA
 To Saint Jaques le Grand.
 Where do the palmers lodge, I do beseech you?
-Widow
+WIDOW
 At the Saint Francis here beside the port.
 HELENA
 Is this the way?
-Widow
+WIDOW
 Ay, marry, is't.
 A march afar
 
@@ -2215,15 +2215,15 @@ The rather, for I think I know your hostess
 As ample as myself.
 HELENA
 Is it yourself?
-Widow
+WIDOW
 If you shall please so, pilgrim.
 HELENA
 I thank you, and will stay upon your leisure.
-Widow
+WIDOW
 You came, I think, from France?
 HELENA
 I did so.
-Widow
+WIDOW
 Here you shall see a countryman of yours
 That has done worthy service.
 HELENA
@@ -2258,7 +2258,7 @@ DIANA
 Alas, poor lady!
 'Tis a hard bondage to become the wife
 Of a detesting lord.
-Widow
+WIDOW
 I warrant, good creature, wheresoe'er she is,
 Her heart weighs sadly: this young maid might do her
 A shrewd turn, if she pleased.
@@ -2266,7 +2266,7 @@ HELENA
 How do you mean?
 May be the amorous count solicits her
 In the unlawful purpose.
-Widow
+WIDOW
 He does indeed;
 And brokes with all that can in such a suit
 Corrupt the tender honour of a maid:
@@ -2274,7 +2274,7 @@ But she is arm'd for him and keeps her guard
 In honestest defence.
 MARIANA
 The gods forbid else!
-Widow
+WIDOW
 So, now they come:
 Drum and Colours
 
@@ -2305,13 +2305,13 @@ PAROLLES
 Lose our drum! well.
 MARIANA
 He's shrewdly vexed at something: look, he has spied us.
-Widow
+WIDOW
 Marry, hang you!
 MARIANA
 And your courtesy, for a ring-carrier!
 Exeunt BERTRAM, PAROLLES, and army
 
-Widow
+WIDOW
 The troop is past. Come, pilgrim, I will bring you
 Where you shall host: of enjoin'd penitents
 There's four or five, to great Saint Jaques bound,
@@ -2323,7 +2323,7 @@ To eat with us to-night, the charge and thanking
 Shall be for me; and, to requite you further,
 I will bestow some precepts of this virgin
 Worthy the note.
-BOTH
+WIDOW & MARIANA
 We'll take your offer kindly.
 Exeunt
 
@@ -2492,12 +2492,12 @@ Exeunt
 
 SCENE VII. Florence. The Widow's house.
 
-Enter HELENA and Widow
+Enter HELENA and WIDOW
 HELENA
 If you misdoubt me that I am not she,
 I know not how I shall assure you further,
 But I shall lose the grounds I work upon.
-Widow
+WIDOW
 Though my estate be fallen, I was well born,
 Nothing acquainted with these businesses;
 And would not put my reputation now
@@ -2509,7 +2509,7 @@ And what to your sworn counsel I have spoken
 Is so from word to word; and then you cannot,
 By the good aid that I of you shall borrow,
 Err in bestowing it.
-Widow
+WIDOW
 I should believe you:
 For you have show'd me that which well approves
 You're great in fortune.
@@ -2529,7 +2529,7 @@ Since the first father wore it: this ring he holds
 In most rich choice; yet in his idle fire,
 To buy his will, it would not seem too dear,
 Howe'er repented after.
-Widow
+WIDOW
 Now I see
 The bottom of your purpose.
 HELENA
@@ -2540,7 +2540,7 @@ In fine, delivers me to fill the time,
 Herself most chastely absent: after this,
 To marry her, I'll add three thousand crowns
 To what is passed already.
-Widow
+WIDOW
 I have yielded:
 Instruct my daughter how she shall persever,
 That time and place with this deceit so lawful
@@ -3286,7 +3286,7 @@ Exit
 
 SCENE IV. Florence. The Widow's house.
 
-Enter HELENA, Widow, and DIANA
+Enter HELENA, WIDOW, and DIANA
 HELENA
 That you may well perceive I have not wrong'd you,
 One of the greatest in the Christian world
@@ -3302,7 +3302,7 @@ I am supposed dead: the army breaking,
 My husband hies him home; where, heaven aiding,
 And by the leave of my good lord the king,
 We'll be before our welcome.
-Widow
+WIDOW
 Gentle madam,
 You never had a servant to whose trust
 Your business was more welcome.
@@ -3481,7 +3481,7 @@ ACT V
 
 SCENE I. Marseilles. A street.
 
-Enter HELENA, Widow, and DIANA, with two Attendants
+Enter HELENA, WIDOW, and DIANA, with two Attendants
 HELENA
 But this exceeding posting day and night
 Must wear your spirits low; we cannot help it:
@@ -3521,7 +3521,7 @@ Gentleman
 Not, indeed:
 He hence removed last night and with more haste
 Than is his use.
-Widow
+WIDOW
 Lord, how we lose our pains!
 HELENA
 ALL'S WELL THAT ENDS WELL yet,
@@ -3856,7 +3856,7 @@ KING
 I wonder, sir, sith wives are monsters to you,
 And that you fly them as you swear them lordship,
 Yet you desire to marry.
-Enter Widow and DIANA
+Enter WIDOW and DIANA
 
 What woman's that?
 DIANA
@@ -3864,7 +3864,7 @@ I am, my lord, a wretched Florentine,
 Derived from the ancient Capilet:
 My suit, as I do understand, you know,
 And therefore know how far I may be pitied.
-Widow
+WIDOW
 I am her mother, sir, whose age and honour
 Both suffer under this complaint we bring,
 And both shall cease, without your remedy.
@@ -4086,7 +4086,7 @@ KING
 She does abuse our ears: to prison with her.
 DIANA
 Good mother, fetch my bail. Stay, royal sir:
-Exit Widow
+Exit WIDOW
 
 The jeweller that owes the ring is sent for,
 And he shall surety me. But for this lord,
@@ -4097,7 +4097,7 @@ And at that time he got his wife with child:
 Dead though she be, she feels her young one kick:
 So there's my riddle: one that's dead is quick:
 And now behold the meaning.
-Re-enter Widow, with HELENA
+Re-enter WIDOW, with HELENA
 
 KING
 Is there no exorcist

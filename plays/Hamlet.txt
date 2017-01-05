@@ -562,15 +562,15 @@ To let you know of it.
 HAMLET
 Indeed, indeed, sirs, but this troubles me.
 Hold you the watch to-night?
-MARCELLUS BERNARDO
+MARCELLUS & BERNARDO
 We do, my lord.
 HAMLET
 Arm'd, say you?
-MARCELLUS BERNARDO
+MARCELLUS & BERNARDO
 Arm'd, my lord.
 HAMLET
 From top to toe?
-MARCELLUS BERNARDO
+MARCELLUS & BERNARDO
 My lord, from head to foot.
 HAMLET
 Then saw you not his face?
@@ -596,7 +596,7 @@ HAMLET
 Very like, very like. Stay'd it long?
 HORATIO
 While one with moderate haste might tell a hundred.
-MARCELLUS BERNARDO
+MARCELLUS & BERNARDO
 Longer, longer.
 HORATIO
 Not when I saw't.
@@ -1093,7 +1093,7 @@ Writing
 So, uncle, there you are. Now to my word;
 It is 'Adieu, adieu! remember me.'
 I have sworn 't.
-MARCELLUS HORATIO
+MARCELLUS & HORATIO
 [Within] My lord, my lord,--
 MARCELLUS
 [Within]	Lord Hamlet,--
@@ -1124,7 +1124,7 @@ Nor I, my lord.
 HAMLET
 How say you, then; would heart of man once think it?
 But you'll be secret?
-HORATIO MARCELLUS
+MARCELLUS & HORATIO
 Ay, by heaven, my lord.
 HAMLET
 There's ne'er a villain dwelling in all Denmark
@@ -1159,7 +1159,7 @@ HORATIO
 What is't, my lord? we will.
 HAMLET
 Never make known what you have seen to-night.
-HORATIO MARCELLUS
+MARCELLUS & HORATIO 
 My lord, we will not.
 HAMLET
 Nay, but swear't.
@@ -1810,7 +1810,7 @@ HAMLET
 Then are our beggars bodies, and our monarchs and
 outstretched heroes the beggars' shadows. Shall we
 to the court? for, by my fay, I cannot reason.
-ROSENCRANTZ GUILDENSTERN
+ROSENCRANTZ &  GUILDENSTERN
 We'll wait upon you.
 HAMLET
 No such matter: I will not sort you with the rest
@@ -2572,7 +2572,7 @@ Bid the players make haste.
 Exit POLONIUS
 
 Will you two help to hasten them?
-ROSENCRANTZ GUILDENSTERN
+ROSENCRANTZ & GUILDENSTERN
 We will, my lord.
 Exeunt ROSENCRANTZ and GUILDENSTERN
 
@@ -3123,7 +3123,7 @@ KING CLAUDIUS
 Arm you, I pray you, to this speedy voyage;
 For we will fetters put upon this fear,
 Which now goes too free-footed.
-ROSENCRANTZ GUILDENSTERN
+ROSENCRANTZ & GUILDENSTERN
 We will haste us.
 Exeunt ROSENCRANTZ and GUILDENSTERN
 
