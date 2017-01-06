@@ -1159,7 +1159,7 @@ HORATIO
 What is't, my lord? we will.
 HAMLET
 Never make known what you have seen to-night.
-MARCELLUS & HORATIO 
+MARCELLUS & HORATIO
 My lord, we will not.
 HAMLET
 Nay, but swear't.
@@ -1810,7 +1810,7 @@ HAMLET
 Then are our beggars bodies, and our monarchs and
 outstretched heroes the beggars' shadows. Shall we
 to the court? for, by my fay, I cannot reason.
-ROSENCRANTZ &  GUILDENSTERN
+ROSENCRANTZ & GUILDENSTERN
 We'll wait upon you.
 HAMLET
 No such matter: I will not sort you with the rest
