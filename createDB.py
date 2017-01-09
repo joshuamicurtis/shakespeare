@@ -25,7 +25,7 @@ cur.execute('''CREATE TABLE IF NOT EXISTS Lines
 cur.execute('''CREATE TABLE IF NOT EXISTS Words
     (id INTEGER PRIMARY KEY, word TEXT, lineID INTEGER)''') 
     
- 
+speechID = 1
 for fileName in os.listdir('plays'):
     if fileName.lower().endswith('.txt'):
         playName = fileName[:-4]
@@ -55,6 +55,8 @@ for fileName in os.listdir('plays'):
         speechNumber = 0
         lineNumber = 0
         newCharacter = False
+        file.readline()
+        file.readline()
         for line in file:
             # Check if a new act is beginning
             if line.isupper() and line[0:3] == "ACT":
@@ -67,11 +69,12 @@ for fileName in os.listdir('plays'):
                                 characterID, act, number) 
                                 VALUES(?,?,?,?)''', (speech, characterID[0], 
                                 act, speechNumber, ))
+                    speechID = cur.lastrowid
                 speechNumber += 1
                 character = line.rstrip("\n")
                 newCharacter = True
                 speech = ""
-            if line.isupper() == False and line[0:4] != "Exit" and line[0:5] != "Enter" and line != "\n":
+            if line.isupper() == False and line[0:4] != "Exit" and line[0:5] != "Enter" and line[0:5] != "SCENE" and line != "\n":
                 speech += " " + line       
                 if newCharacter == True:
                     cur.execute(''' SELECT Characters.id 
@@ -88,7 +91,7 @@ for fileName in os.listdir('plays'):
                         # Insert data into line table of DB
                         cur.execute('''INSERT OR IGNORE INTO LINES (line, 
                                     speechID, number) VALUES(?,?,?)''', 
-                                    (line, speechNumber, lineNumber, ))  
+                                    (line, speechID, lineNumber, ))  
                         words = line.split()
                         for word in words:
                             word = word.lstrip('\'\"-,.]')
